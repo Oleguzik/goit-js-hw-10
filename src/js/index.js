@@ -54,7 +54,7 @@ function clearSearchList() {
 function drawCountries(countries) {
   clearSearchList();
 
-  console.log(countries);
+  // console.log(countries);
 
   if (countries.length > 10) {
     Notify.info(
@@ -70,7 +70,7 @@ function drawCountries(countries) {
 }
 
 function markupCountryList(countries) {
-  console.log(countries);
+  // console.log(countries);
   return countries
     .map(
       country => `
