@@ -71,6 +71,7 @@ function drawCountries(countries) {
 
 function markupCountryList(countries) {
   // console.log(countries);
+
   return countries
     .map(
       country => `
